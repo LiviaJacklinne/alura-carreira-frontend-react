@@ -58,7 +58,7 @@ a:hover {
 section img {
     display: block;
     width: 792px;
-    height: 446;
+    height: 446px;
     margin: 0 auto;
 }
 
@@ -74,11 +74,9 @@ section img {
     }   
 }
 
-/* Mobile */
-@media(max-width: 376px) {
-
-    header img {
-        margin: 32px 0 0 16px;
+@media(max-width: 376px){
+    header img{
+        margin:32px 0 0 16px;
     }
 
     h1 {
@@ -87,7 +85,7 @@ section img {
 
     p {
         font-size: 20px;
-        width: 340px;      
+        width: 340px;
     }
 
     a {
